@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 600px;
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            /* align-items: center; */
+            background-color: aqua;
+        }
+
+        .box div {
+            width: 40px;
+            height: 60px;
+            background-color: blue;
+            border: solid 1px #000;
+            /* list-style: none;/ */
+        }
+
+        .box-1 {
+            width: 600px;
+            height: 30px;
+            display: flex;
+            background-color: red;
+        }
+
+        .box-1 div {
+            flex: 1;
+            border: solid 1px #000;
+            background-color: aqua;
+        }
+
+        .box-2 {
+            width: 600px;
+            height: 40px;
+            background-color: red;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .box-2 div {
+            width: 900px;
+            flex-shrink: 1;
+            border: solid 1px #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+    <div class="box-1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+    <div class="box-2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+</body>
+
+</html>

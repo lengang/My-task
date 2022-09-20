@@ -1,0 +1,36 @@
+ 团队合作  1  git clone XXX(项目组git) 
+
+ 2  Cd XX  
+
+3  Git checkout -b 自己的名字  
+
+4  git push origin 自己的名字 
+
+ 5  写完代码上传  
+
+6  git checkout development 
+
+ 7  git pull 
+
+ 8  Git merge 自己的名字  
+
+9  解决冲突  
+
+10  git push 
+
+ [OA-effect/one: 一组成员放置effect项目的地址 (github.com)](https://github.com/OA-effect/one) 
+
+ 实际开发 
+
+ 1  切换至自己的分支 git checkout 自己的名字  
+
+ 2  然后执行 git merge development 
+
+
+
+git commit --no-verify -m “XXX”
+
+git branch --set-upstream-to=origin/feature feature  关联本地和远程
+
+https://github.com/OA-effect
+

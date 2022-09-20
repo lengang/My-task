@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg {
+            width: 70px;
+            height: 70px;
+        }
+    </style>
+</head <body>
+<button class="btn">点击</button>
+<button class="btn-1">关闭</button>
+<div class="bg"></div>
+</body>
+<script>
+    // let btn = document.querySelector('.btn')
+    // let btn1 = document.querySelector('.btn-1')
+    // let bg = document.querySelector('.bg')
+    // btn.onclick = () => {
+    //     setInterval(() => {
+    //         bg.style.background = "red"
+    //     }, 3000);
+    // }
+    // btn1.onclick = () => {
+    //     setInterval(() => {
+    //         bg.style.background = ""
+    //     }, 3000);
+    // }
+    // let arr = ['亚索', '刀妹', '劫']
+    // let arr1 = ['诺手', '诺克萨斯统领', '老司机']
+    // let arr3 = [...arr, ...arr1]
+    // console.log(arr3);
+
+    // let s = Symbol()
+    // let s2 = Symbol('清华大学');
+    // let s3 = Symbol('清华大学');
+    // let s4 = Symbol.for('清华大学');
+    // let s5 = Symbol.for('清华大学')
+    // console.log(s, s1, s2, s3, s4, s5);
+    function* gen () {
+        console.log(123);
+        yield '这是一个耳朵',
+            yield '这是个腿',
+            yield '这是个四肢'
+    }
+    let iterator = gen();
+    console.log(iterator.next('这是一个人'));
+
+    function getUsers () {
+
+    }
+
+    let p = new Promise(function (resolve, reject) {
+        setTimeout(() => {
+
+            let data = '我是成功的回调'
+            resolve(data)
+        }, 1000);
+    })
+    p.then(res => {
+
+    })
+
+    function Phone (brand, price) {
+        this.brand = brand
+        this.price = price
+    }
+    Phone.prototype.call = function () {
+        conlose.log('打电话')
+    }
+    let Huawei = new Phone('华为', 33333)
+    console.log(Huawei);
+
+
+    class Phone {
+        get price () {
+            console.log('属性读取');
+            return 'i love you'
+        }
+        set price (newVal) {
+            console.log(newVal);
+            console.log('价格属性被修改');
+        }
+    }
+
+</script>
+
+</html>

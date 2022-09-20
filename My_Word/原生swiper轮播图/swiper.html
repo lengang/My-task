@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./swiper/swiper.min.css">
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-wrapper {
+            /* 通过改变animation-timing-function 制作弹性切换效果 */
+            transition: 2s cubic-bezier(0.68, -0.4, 0.27, 1.34) 0.2s;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img//4034970a304e251f2e813d6131dfb3107e3e5392.jpeg" alt=""></div>
+            <div class="swiper-slide"><img
+                    src="./img//src=http___5b0988e595225.cdn.sohucs.com_images_20200221_c22c19a2f35442408c4def6e0650ecf4.jpeg&refer=http___5b0988e595225.cdn.sohucs.jpg"
+                    alt=""></div>
+            <div class="swiper-slide"><img
+                    src="./img//src=http___b-ssl.duitang.com_uploads_item_201809_04_20180904094602_dydeY.thumb.700_0.jpeg&refer=http___b-ssl.duitang.jpg"
+                    alt=""></div>
+            <div class="swiper-slide"><img
+                    src="./img//src=http___c-ssl.duitang.com_uploads_item_202002_21_20200221205645_QAWXh.thumb.1000_0.png&refer=http___c-ssl.duitang.jpg"
+                    alt=""></div>
+            <div class="swiper-slide"><img
+                    src="./img//src=http___i.qqkou.com_i_0a1855172332x178494938b26.jpg&refer=http___i.qqkou.jpg" alt="">
+            </div>
+            <div class="swiper-slide"><img
+                    src="./img/src=http___i.qqkou.com_i_1a4134579756x3868840731b15.jpg&refer=http___i.qqkou.jpg" alt="">
+            </div>
+            <div class="swiper-slide"><img
+                    src="./img//src=http___img.wxcha.com_file_201905_24_fb0f57f1e0.jpg&refer=http___img.wxcha.jpg"
+                    alt=""></div>
+            <div class="swiper-slide"><img
+                    src="./img//src=http___img2.woyaogexing.com_2020_02_15_aff4ef4178824660858fe87b693c58d1!400x400.jpeg&refer=http___img2.woyaogexing.jpg"
+                    alt=""></div>
+            <div class="swiper-slide"><img
+                    src="./img//src=http___inews.gtimg.com_newsapp_bt_0_13341110863_1000.jpg&refer=http___inews.gtimg.jpg"
+                    alt=""></div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="./swiper//swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            speed: 2000,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>
