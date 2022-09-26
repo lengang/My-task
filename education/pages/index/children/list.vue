@@ -37,8 +37,10 @@
 
 <style>
 	.List-box {
+		/* background-color: red; */
 		width: 100%;
 		height: 200rpx;
+		margin-bottom: 24px;
 		display: grid;
 		justify-items: center;
 		align-items: center;
@@ -49,7 +51,6 @@
 	}
 
 	.my_min {
-
 		text-align: center;
 		width: 150rpx;
 		height: 80rpx;

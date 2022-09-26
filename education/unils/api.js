@@ -8,14 +8,12 @@ const list = () => {
 	let my_list = http.get('article/api/category/label/list')
 	return my_list
 }
-// const search = (e) => {
-// 	let My_search = http.post(`course/api/course/search` & {
-// 		e
-// 	})
-// 	return My_search
-// }
+const search = (e) => {
+	let My_search = http.post(`course/api/course/search`, e)
+	return My_search
+}
 export {
 	connter,
 	list,
-	// search
+	search
 }
