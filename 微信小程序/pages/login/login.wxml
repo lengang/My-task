@@ -1,0 +1,40 @@
+<!-- 返回键 -->
+<view>
+  <view class="icon-31fanhui1" bindtap="btn">
+  </view>
+</view>
+<!-- Logo -->
+<view class="Img_box">
+  <image class="My_img" src="../../img/logo.jpg"></image>
+</view>
+<!-- 登录输入框以及图标 -->
+<view style="padding: 0 20px;">
+  <view class="center">
+    <view style="margin-top: 15px;" class="icon-shouji">
+    </view>
+    <input style="border-bottom: solid 1px #ccc; width: 90%; padding: 10px 0; margin-left: 10px; margin-bottom: 10px;" type="number" class="deit" placeholder="请输入手机号" />
+  </view>
+  <view class="center">
+    <view style="margin-top: 15px;" class="icon-anquan">
+    </view>
+    <input style="border-bottom: solid 1px #ccc; width: 90%; padding: 10px 0; margin-left: 10px; margin-bottom: 10px;" type="password" class="deit" placeholder="请输入密码" />
+  </view>
+  <view class="center" style="position: relative;">
+    <view style="margin-top: 15px;" class="icon-anquan">
+    </view>
+    <input class="deit" style="border-bottom: solid 1px #ccc; width: 90%; padding: 10px 0; margin-left: 10px; margin-bottom: 10px;" type="text" placeholder="请输入验证码" />
+    <!-- 验证码 -->
+    <view class="code">
+    
+    </view>
+  </view>
+</view>
+<button class='login_btn'>
+  登录
+</button>
+<view class="btm">
+  <view>
+    忘记密码？
+  </view>
+  <view>注册/验证码登录</view>
+</view>
