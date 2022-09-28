@@ -1,0 +1,28 @@
+<view class="tabbar">
+  <view class="left_text">
+    管理类联考>
+  </view>
+
+  <view class="right">
+    <!-- 搜索图标 -->
+    <view class="icon-sousu">
+    </view>
+    <image class="icon" src="../../img/下载 (9).png"></image>
+  </view>
+</view>
+<!-- 索引栏 -->
+<van-index-bar index-list="{{ indexList }}">
+  <view>
+    <van-index-anchor index="1">标题1</van-index-anchor>
+    <van-cell title="文本" />
+    <van-cell title="文本" />
+    <van-cell title="文本" />
+  </view>
+
+  <view>
+    <van-index-anchor index="2">标题2</van-index-anchor>
+    <van-cell title="文本" />
+    <van-cell title="文本" />
+    <van-cell title="文本" />
+  </view>
+</van-index-bar>

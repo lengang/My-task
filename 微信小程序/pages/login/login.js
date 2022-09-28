@@ -7,8 +7,10 @@ Page({
   data: {
 
   },
-  btn:function(){
-  console.log(123);
+  btn: function () {
+    wx.redirectTo({
+      url: '../curricula-variable/curricula-variable',
+    })
   },
   /**
    * 生命周期函数--监听页面加载

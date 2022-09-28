@@ -1,0 +1,26 @@
+/* pages/curricula-variable/curricula-variable.wxss */
+
+.tabbar{
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+align-items: center;
+padding: 0 10px;
+}
+.left_text{
+  font-weight: 600;
+}
+.icon{
+  width: 25px;
+  height: 25px;
+}
+.right{
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-sousuo{
+  width: 25px;
+  height: 25px;
+}

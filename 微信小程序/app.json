@@ -1,15 +1,58 @@
 {
-  "pages":[
+  "pages": [
+    "pages/curricula-variable/curricula-variable",
     "pages/login/login",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/tool/tool",
+    "pages/my/my",
+    "pages/mew/mew",
+    "pages/class/class"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#fff",
+    "list": [{
+        "pagePath": "pages/curricula-variable/curricula-variable",
+        "text": "选课",
+        "iconPath": "./img/选课白.png",
+        "selectedIconPath": "./img/选课橙.png"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "text": "我的课",
+        "iconPath": "./img/我的课白.png",
+        "selectedIconPath": "./img/我的课橙.png"
+      },
+      {
+        "pagePath": "pages/mew/mew",
+        "text": "瞄屋",
+        "iconPath": "./img/瞄屋白.png",
+        "selectedIconPath": "./img/瞄屋橙.jpg"
+      },
+      {
+        "pagePath": "pages/tool/tool",
+        "text": "工具",
+        "iconPath": "./img/工具白.png",
+        "selectedIconPath": "./img/工具橙.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./img/我的白.png",
+        "selectedIconPath": "./img/我的橙.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
