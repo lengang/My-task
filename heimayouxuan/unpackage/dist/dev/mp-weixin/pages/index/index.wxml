@@ -1,0 +1,1 @@
+<view class=""><button style="background-color:"> 搜索 </button></view><view class="wrap"><u-swiper wx:if="{{a}}" u-i="15afd481-0" bind:__l="__l" u-p="{{a}}"></u-swiper></view>

@@ -1,5 +1,5 @@
 // app.js
-import axios from './utils/app_box'
+import request from "./request/request.js";
 App({
   onLaunch() {
     // 展示本地存储能力

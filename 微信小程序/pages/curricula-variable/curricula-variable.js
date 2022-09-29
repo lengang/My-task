@@ -1,3 +1,5 @@
+
+import request from "../../request/request";
 // pages/curricula-variable/curricula-variable.js
 Page({
 
@@ -7,14 +9,15 @@ Page({
   data: {
 
   },
-btnClick:function(options){
+  btnClick: function (options) {
 
-},
+  },
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad(options) {
 
+  onLoad(options) {
+    
   },
 
   /**

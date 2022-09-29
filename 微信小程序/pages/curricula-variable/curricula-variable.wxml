@@ -11,18 +11,16 @@
   </view>
 </view>
 <!-- 索引栏 -->
-<van-index-bar index-list="{{ indexList }}">
-  <view>
-    <van-index-anchor index="1">标题1</van-index-anchor>
-    <van-cell title="文本" />
-    <van-cell title="文本" />
-    <van-cell title="文本" />
-  </view>
+<van-tabs sticky>
+  <van-tab title="精选"></van-tab>
+  <van-tab title="0元课"></van-tab>
+  <van-tab title="系统课"></van-tab>
+  <van-tab title="面授集训"></van-tab>
+  <van-tab title="MBA面训"></van-tab>
+</van-tabs>
 
-  <view>
-    <van-index-anchor index="2">标题2</van-index-anchor>
-    <van-cell title="文本" />
-    <van-cell title="文本" />
-    <van-cell title="文本" />
-  </view>
-</van-index-bar>
+<swiper indicator-dots='true' autoplay='true' circular="true">
+ <swiper-item>
+ <image src="../../img/logo.jpg"></image>
+ </swiper-item>
+</swiper>
