@@ -1,0 +1,22 @@
+.box{
+  font-size: 30rpx;
+}
+.tou{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}
+.p{
+  padding: 0 10px  0 10px;
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.sma{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

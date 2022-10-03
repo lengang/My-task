@@ -1,0 +1,60 @@
+/* pages/tool/tool.wxss */
+.head{
+    width: 100%;
+    height: 360rpx;
+    background-image: url('	https://wap.lexuemiao.com/img/toolBg.361a07fa.png'  );
+    background-size:100% 100% ;
+    box-sizing: border-box;
+    padding: 0 20rpx;
+}
+.head .ul{
+    width: 100%;
+    height: 70rpx;
+    line-height: 70rpx;
+    background-color: white;
+    border-radius: 100rpx;
+    display: flex;
+    font-size: 32rpx;
+    font-weight: 800;
+    position: relative;
+    top: 280rpx;
+}
+.head .ul view{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.head .ul view .sp{
+    display: inline-block;
+    width: 70rpx;
+    height: 7rpx;
+    background-color: #f15a24;
+    position: absolute;
+    bottom: 10rpx;
+    left: 50rpx;
+}
+.head .ul view .sp1{
+    display: inline-block;
+    width: 70rpx;
+    height: 7rpx;
+    background-color: #f15a24;
+    position: absolute;
+    bottom: 10rpx;
+    left: 50rpx;
+}
+.nothing{
+    width: 100%;
+    text-align: center;
+    margin-top: 80rpx;
+    font-size: 32rpx;
+    color: #c0c4ca;
+}
+.nothing view{
+    margin-top: 40rpx;
+}
+.nothing image{
+    width: 410rpx;
+    height: 320rpx;
+    
+
+}

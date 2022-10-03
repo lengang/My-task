@@ -1,0 +1,65 @@
+<view class="box">
+<view class="p">
+<view>头像</view>
+<view class="sma">
+  <image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/images/avatar.jpg" class="tou"></image>
+  <view>></view>
+</view>
+</view>
+<view class="p">
+<view>昵称</view>
+<view class="sma">
+  <view>156****9733</view>
+  <view>></view>
+</view>
+</view>
+<view class="p">
+<view>手机号码</view>
+<view class="sma">
+  <view>15674809733</view>
+  <view>></view>
+</view>
+</view>
+<view class="p">
+<view>性别</view>
+<view class="sma">
+  <view>保密</view>
+  <view>></view>
+</view>
+</view>
+<view class="p">
+<view>出生日期</view>
+<view class="sma">
+  <view>请选择</view>
+  <view>></view>
+</view>
+</view>
+<view class="p">
+<view>地区</view>
+<view class="sma">
+  <view>请选择</view>
+  <view>></view>
+</view>
+</view>
+<view class="p">
+<view>年纪</view>
+<view class="sma">
+  <view>请选择</view>
+  <view>></view>
+</view>
+</view>
+<view class="p">
+<view>报考院校</view>
+<view class="sma">
+  <view>请选择</view>
+  <view>></view>
+</view>
+</view>
+<view class="p">
+<view>报考专业</view>
+<view class="sma">
+  <view>请选择</view>
+  <view>></view>
+</view>
+</view>
+</view>

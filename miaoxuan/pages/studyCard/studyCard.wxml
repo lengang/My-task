@@ -1,0 +1,10 @@
+<view class="box">
+<view class="boxmin">
+<image src="https://wap.lexuemiao.com/img/empty.503e5ccb.png" class="imgs"></image>
+<view>暂无学习卡</view>
+</view>
+
+</view>
+<view class="footer">
+  <van-button type="primary" size="large" color="#f15a24" >学习卡兑现</van-button>
+</view>

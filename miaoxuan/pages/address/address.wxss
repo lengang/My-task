@@ -1,0 +1,46 @@
+.box{
+  font-size: 30rpx;
+  background-color: #ccc;
+}
+.p{
+  height: 300rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+.name{
+  padding: 20rpx;
+}
+.bombox{
+  display: flex;
+  margin-top: 20rpx;
+  justify-content:space-between;
+}
+.btn{
+  width: 120rpx;
+  height: 60rpx;
+  border: 1px solid #ccc;
+  border-radius: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+  color: #ccc;
+}
+.del{
+  width: 120rpx;
+  height: 60rpx;
+  border: 1px solid red;
+  border-radius: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+  color: red;
+  margin: 0 20rpx;
+}
+.right{
+  display: flex;
+}
+.sahngbox{
+  border-bottom: 1px solid #ccc;
+}
+.lie{
+  padding: 20rpx;
+}

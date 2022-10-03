@@ -1,0 +1,65 @@
+.tui-item{
+  width: 95%;
+  box-sizing: border-box;
+  box-shadow: 4rpx 4rpx 8rpx 4rpx #eee;
+  border-radius: 6%;
+  margin: 8% 0;
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px auto ;
+}
+.top-txt{
+  
+  position: absolute;
+  top: -30rpx;
+  left: 0;
+  background-color: #f15a24;
+  color: white;
+  padding: 1% 2%;
+  font-size: 24rpx;
+  box-sizing: border-box;
+  border-top-left-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+}
+.tui-item .fir-txt{
+  font-size: 36rpx;
+ 
+}
+.tui-item .sec-txt{
+  margin: 10% 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+}
+.sec-txt image{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin: 0 2%;
+}
+.bot-free{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(241, 241, 241, 0.849);
+  padding: 4% 0 0 0;
+  box-sizing: border-box;
+}
+.bot-free text:nth-of-type(1){
+  font-size: 32rpx;
+  color: gray;
+}
+.mian{
+  color: #409426;
+  font-size: 36rpx;
+}
+.smcol{
+  color: gray;
+  font-size: 30rpx;
+}
+.box{
+  background-color: #fafafa;
+}

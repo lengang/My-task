@@ -1,0 +1,94 @@
+<!--pages/study/study.wxml-->
+<view class="content">
+    <view class="date">
+        2022年9月
+    </view>
+    <view class="weekcourse">
+        <view class="week">
+            <view>
+                <view>日</view>
+                <view>25</view>
+            </view>
+            <view>
+                <view>一</view>
+                <view>26</view>
+            </view>
+            <view>
+                <view>二</view>
+                <view class="active">今</view>
+            </view>
+            <view>
+                <view>三</view>
+                <view>28</view>
+            </view>
+            <view>
+                <view>四</view>
+                <view>29</view>
+            </view>
+            <view>
+                <view>五</view>
+                <view>30</view>
+            </view>
+            <view>
+                <view>六</view>
+                <view>01</view>
+            </view>
+        </view>
+        <view class="head">
+            <view class="left">
+                今日课程(<text>0</text> <text>节</text> )
+            </view>
+            <view class="right">
+                <image src="/images/日历.png"></image>
+                <view>课程</view>
+            </view>
+        </view>
+    </view>
+    <view class="learn">
+        <view>
+            <image src="https://wap.lexuemiao.com/img/history-full@3x.fd48535a.png"></image>
+            <view>学习记录</view>
+        </view>
+        <view>
+            <image src="https://wap.lexuemiao.com/img/ziliao@3x.6d7c3da4.png"></image>
+            <view>学习资料</view>
+        </view>
+    </view>
+    <view class="hone">
+        <view class="hone-title">
+            <view>
+                正在学习的课程
+            </view>
+            <view>
+                查看更多 >
+            </view>
+        </view>
+        <view class="hone-content">
+            <view class="lb-item" wx:for="{{2}}" wx:key="index">
+                <view class="lb-title">
+                    23政英｜考研政英80+特训营
+                </view>
+                <view class="label-type">
+                    <text>系统课</text>
+                    <text>2课时</text>
+                </view>
+                <view class="lbi-teacher">
+                    <view>
+                        <image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/image/2020af1zvps41607912321.jpg"></image>
+                        <text>陈正康</text>
+                    </view>
+                    <view>
+                        <image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/image/2020576ztzcv1579054635.jpg"></image>
+                        <text>曲艺</text>
+                    </view>
+                </view>
+                <text class="lb-label">考验英语</text>
+                <text class="lesson-not-sell"></text>
+            </view>
+        </view>
+
+        <view class="choose-btn" bindtap="toIndex">
+        去选课
+        </view>
+    </view>
+</view>

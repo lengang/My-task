@@ -1,0 +1,21 @@
+<!-- <text>pages/tool/tool.wxml工具</text> -->
+<!-- 头部 -->
+<view class="head">
+    <view class="ul">
+        <view></view>
+        <view bindtap="btn" data-id="1">
+            学习工具
+            <text class="sp" wx:if="{{id==1}}"></text>
+        </view>
+        <view bindtap="btn" data-id="2">
+            正在参与
+            <text class="sp1" wx:if="{{id==2}}"></text>
+        </view>
+        <view></view>
+    </view>
+</view>
+<!-- 暂无数据背景 -->
+    <view class="nothing">
+    <image src="https://wap.lexuemiao.com/img/noData2.ec86a21a.png"></image>
+    <view>暂无数据</view>
+    </view>

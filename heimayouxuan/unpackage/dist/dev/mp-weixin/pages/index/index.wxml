@@ -1,1 +1,1 @@
-<view class=""><button style="background-color:"> 搜索 </button></view><view class="wrap"><u-swiper wx:if="{{a}}" u-i="15afd481-0" bind:__l="__l" u-p="{{a}}"></u-swiper></view>
+<view class="sousuo" style="padding-bottom:10rpx"><button style="background-color:;height:60rpx;line-height:60rpx;font-size:32rpx;color:#ccc"> 搜索 </button></view><view class="wrap"><u-swiper wx:if="{{a}}" u-i="15afd481-0" bind:__l="__l" u-p="{{a}}"></u-swiper></view>

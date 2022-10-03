@@ -1,0 +1,24 @@
+<view class="box">
+<view class="top">
+<view class="{{item.id==ids?'active':''}}" wx:for="{{list}}" wx:key="item.id" bindtap="tabtop" data-id="{{item.id}}">{{item.name}}</view>
+</view>
+<view class="tui-item">
+            <view class="top-txt">0元课</view>
+            <view class="fir-txt">【政英】考研大纲解析（已生成回放）</view>
+            <view class="sec-txt">
+            <image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/image/2020576ztzcv1579054635.jpg"></image>
+            <text>曲艺</text>
+            <image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/image/2020576ztzcv1579054635.jpg"></image>
+            <text>陈正康</text>
+            </view>
+            <view class="bot-free">
+              <view> 
+              实付款：<text>￥0.00</text>
+               </view>
+               <view class="inbox">
+               <view class="bgc">马上学习</view>
+               <view class="bgc">去评价</view>
+               </view>
+            </view>
+        </view>
+</view>

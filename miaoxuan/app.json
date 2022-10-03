@@ -1,0 +1,58 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/login/login",
+        "pages/selcourse/selcourse",
+        "pages/mycourse/mycourse",
+        "pages/cathouse/cathouse",
+        "pages/tool/tool",
+        "pages/mine/mine",
+        "pages/bookdetail/bookdetail"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/selcourse/selcourse",
+                "text": "选课",
+                "iconPath": "/static/image/课程.png",
+                "selectedIconPath": "/static/image/课程 (1).png"
+            },
+            {
+                "pagePath": "pages/mycourse/mycourse",
+                "text": "我的课",
+                "iconPath": "/static/image/24_课程.png",
+                "selectedIconPath": "/static/image/24_课程 (1).png"
+            },
+            {
+                "pagePath": "pages/cathouse/cathouse",
+                "text": "喵屋",
+                "iconPath": "/static/image/猫咪.png",
+                "selectedIconPath": "/static/image/猫咪 (1).png"
+            },
+            {
+                "pagePath": "pages/tool/tool",
+                "text": "工具",
+                "iconPath": "/static/image/系统工具.png",
+                "selectedIconPath": "/static/image/系统工具 (1).png"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "我的",
+                "iconPath": "/static/image/我的.png",
+                "selectedIconPath": "/static/image/我的 (1).png"
+            }
+        ]
+    },
+    "usingComponents": {
+        "van-button": "@vant/weapp/button/index",
+        "van-popup": "@vant/weapp/popup/index"
+    }
+}

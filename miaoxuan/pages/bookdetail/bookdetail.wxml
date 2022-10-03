@@ -1,0 +1,59 @@
+<!--pages/bookdetail/bookdetail.wxml-->
+<view class="top-txt">
+    wwwwwwwwwwww
+</view>
+
+<view class="top">
+    <view class="left">
+        <image src="/static/image/我的.png"></image>
+        <text>222</text>
+    </view>
+    <view class="right">
+        +关注
+    </view>
+</view>
+
+<view class="content">
+    <view>
+        66666666666666
+    </view>
+    <view>
+        <image src="/static/image/我的.png" mode="widthFix"></image>
+    </view>
+</view>
+
+<view class="zhua">
+    <image src="/static/image/猫爪.png"></image>
+    <view class="txt">333333</view>
+</view>
+
+<text class="hot-ask">热门评论</text>
+
+<view class="ask-item">
+
+    <view class="left-ask">
+        <image src="/static/image/猫人.png"></image>
+    </view>
+    <view class="right-ask">
+        <view class="tel">12322233333</view>
+        <view>dsioooooooooooooooooooooooooooooo4444444ooooooo</view>
+        <view class="foot-ask">
+            <view class="foot-left">
+                <text>2222</text>
+                <text>回复</text>
+            </view>
+            <view class="foot-right">
+                33333333444
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="bottom-box">
+<input type="text" placeholder="我来说两句" disabled="true" class="active" />
+<image src="/static/image/分享.png"></image>
+<image class="ping" src="/static/image/评论.png"></image>
+<image src="/static/image/猫爪.png"></image>
+<image src="/static/image/分享.png"></image>
+<text class="ding">56</text>
+</view>

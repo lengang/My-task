@@ -1,0 +1,57 @@
+
+        <view class="box">
+          <view class="tui-item">
+            <view class="top-txt">0元课</view>
+            <view class="fir-txt">【政英】考研大纲解析（已生成回放）</view>
+            <view class="sec-txt">
+            <image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/image/2020576ztzcv1579054635.jpg"></image>
+            <text>曲艺</text>
+            <image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/image/2020576ztzcv1579054635.jpg"></image>
+            <text>陈正康</text>
+            </view>
+            <view class="bot-free">
+            <view>
+            <view class="smcol">限15000人</view>
+              <text>2234人已报名</text>
+
+            </view>
+                <view class="mian">免费</view>
+            </view>
+        </view>
+        <view class="tui-item">
+            <view class="top-txt">0元课</view>
+            <view class="fir-txt">【政英】考研大纲解析（已生成回放）</view>
+            <view class="sec-txt">
+            <image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/image/2020576ztzcv1579054635.jpg"></image>
+            <text>曲艺</text>
+            <image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/image/2020576ztzcv1579054635.jpg"></image>
+            <text>陈正康</text>
+            </view>
+            <view class="bot-free">
+            <view>
+            <view class="smcol">限15000人</view>
+              <text>2234人已报名</text>
+
+            </view>
+                <view class="mian">免费</view>
+            </view>
+        </view>
+        <view class="tui-item">
+            <view class="top-txt">0元课</view>
+            <view class="fir-txt">【政英】考研大纲解析（已生成回放）</view>
+            <view class="sec-txt">
+            <image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/image/2020576ztzcv1579054635.jpg"></image>
+            <text>曲艺</text>
+            <image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/image/2020576ztzcv1579054635.jpg"></image>
+            <text>陈正康</text>
+            </view>
+            <view class="bot-free">
+            <view>
+            <view class="smcol">限15000人</view>
+              <text>2234人已报名</text>
+
+            </view>
+                <view class="mian">免费</view>
+            </view>
+        </view>
+        </view>

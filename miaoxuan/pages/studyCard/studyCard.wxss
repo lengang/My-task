@@ -1,0 +1,17 @@
+.imgs{
+  width: 120rpx;
+  height: 120rpx;
+}
+.box{
+  display: flex;
+  justify-content: center;
+}
+.boxmin{
+  font-size: 30rpx;
+}
+.footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-size: 30rpx;
+}

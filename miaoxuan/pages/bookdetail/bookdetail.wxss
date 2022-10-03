@@ -1,0 +1,136 @@
+/* pages/bookdetail/bookdetail.wxss */
+.top-txt {
+    width: 100%;
+    font-weight: 500;
+    font-size: 60rpx;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 2%;
+    box-sizing: border-box;
+}
+
+.top .left image {
+    width: 100rpx;
+    height: 100rpx;
+    vertical-align: middle;
+}
+
+.top .right {
+    display: inline-block;
+    width: 100rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    border-radius: 40rpx;
+    padding: 0 14rpx;
+    /* box-sizing: border-box; */
+    background-color: #fdebe4;
+    color: orange;
+    font-size: 26rpx;
+    text-align: center;
+
+}
+
+.content image {
+    width: 100%;
+}
+
+.zhua {
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.zhua image {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.zhua .txt {
+    float: right;
+    line-height: 92rpx;
+}
+
+.ask-item {
+    width: 100%;
+    border-top: 1px solid #eee;
+    display: flex;
+    padding: 5% 2%;
+    box-sizing: border-box;
+}
+
+.ask-item .left-ask {
+    width: 20%;
+}
+
+.left-ask image {
+    width: 80rpx;
+    height: 80rpx;
+}
+.right-ask .tel{
+    color: orange;
+}
+.foot-ask {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hot-ask{
+    display: inline-block;
+    font-weight: 600;
+    margin: 5%;
+}
+.bottom-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #eee;
+    padding: 3%;
+    box-sizing: border-box;
+    background-color: white;
+}
+.bottom-box input{
+    font-size: 30rpx;
+    position: relative;
+    padding-left: 20rpx;
+}
+.bottom-box image {
+    width: 46rpx;
+    height: 46rpx;
+    margin: 0 10rpx;
+}
+.active::before{
+    content: "";
+    position: absolute;
+    width: 6rpx;
+    height: 60rpx;
+    background-color: orange;
+    top: 0;
+    left: 0;
+}
+.ping{
+    position: relative;
+}
+.ding{
+    position: absolute;
+    top: 0;
+    left: 68%;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 26rpx;
+    width: 40rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+    text-align: center;
+    border-radius: 20rpx;
+    padding: 1%;
+}

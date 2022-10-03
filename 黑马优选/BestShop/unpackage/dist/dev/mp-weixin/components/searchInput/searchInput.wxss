@@ -1,0 +1,10 @@
+
+input{
+		width: 96%;
+		margin-left: 2%;
+		height: 60rpx;
+		height: 60rpx;
+		border-radius: 10rpx;
+		background-color: white;
+		text-align: center;
+}

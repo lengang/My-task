@@ -1,0 +1,21 @@
+.inp{
+  border: 1px solid #ccc;
+}
+.minbox{
+  height: 300rpx;
+  padding:.38667rem .36rem;
+  margin-bottom: 200rpx;
+}
+.box{
+  font-size: 30rpx;
+  padding: 40rpx;
+}
+.btn{
+  width: 90%;
+  border-radius: 10rpx !important;
+}
+.yun{
+  width: 95%;
+  border: 1px solid #ccc;
+  padding: 10rpx;
+}

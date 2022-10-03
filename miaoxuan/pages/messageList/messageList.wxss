@@ -1,0 +1,31 @@
+.box{
+  font-size: 30rpx;
+}
+.minbox{
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #7dc4fa;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100rpx;
+  margin: 0 20rpx;
+}
+.minbox1{
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #edab4d;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100rpx;
+  margin: 0 20rpx;
+}
+.p{
+  height: 160rpx;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+.imgs{
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+}

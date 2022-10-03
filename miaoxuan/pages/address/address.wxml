@@ -1,0 +1,22 @@
+<view class="box">
+<view class="top">
+
+<view class="p">
+<view class="sahngbox">
+<view>
+<text class="name">徐硕</text>
+<text>15674809733</text>
+</view>
+<view class="lie">湖南长沙开福区蚌塘社区</view>
+</view>
+
+<view class="bombox">
+  <view class="left"><van-checkbox value="{{ checked }}" icon-size="25rpx">默认地址</van-checkbox></view>
+  <view class="right">
+    <view class="btn">哈哈</view>
+    <view class="del">删除</view>
+  </view>
+</view>
+</view>
+</view>
+</view>

@@ -1,0 +1,70 @@
+/* pages/login/login.wxss */
+.content{
+    width: 100%;
+    margin: 10% 0;
+}
+.pic-box{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16%;
+}
+.pic-box .pic{
+    width: 400rpx;
+    height: 120rpx;
+}
+.ipt-box image{
+    width: 50rpx;
+    height: 50rpx;
+}
+.tel-box,.pwd-box{
+    width: 100%;
+    display: flex;
+    padding: 1% 0;
+    align-items: center;
+
+}
+.code-box{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1% 0;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.ipt-box{
+    margin: 4% 6%;
+}
+.tel-ipt,.code-ipt,.pwd-ipt{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 3% 0;
+    margin-left: 3%;
+    font-size: 34rpx;
+}
+.login-btn{
+    width: 90%;
+    margin-left: 5%;
+    background-color: #f15a24;
+    color: white;
+    height: 90rpx;
+    line-height: 90rpx;
+    text-align: center;
+    border-radius: 10rpx;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28rpx;
+    padding: 4% 8%;
+    box-sizing: border-box;
+}
+.for-pwd{
+    color: gray;
+}
+.code-login{
+    color: #f7a116;
+}

@@ -1,0 +1,20 @@
+<view class="box">
+<view class="p">
+<view class="minbox">
+  <image src="/static/课程 (1).png" class="imgs"></image>
+</view>
+课程通知
+</view>
+<view class="p">
+<view class="minbox1">
+  <image src="/static/通知.png" class="imgs"></image>
+</view>
+系统通知
+</view>
+<view class="p">
+<view class="minbox1">
+  <image src="/static/通知.png" class="imgs"></image>
+</view>
+订单通知
+</view>
+</view>

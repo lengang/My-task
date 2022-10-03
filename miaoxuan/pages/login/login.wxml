@@ -1,0 +1,39 @@
+<!--pages/login/login.wxml-->
+<view class="content">
+    <view class="pic-box">
+        <image class="pic" src="https://wap.lexuemiao.com/img/logo@2x.a4702f31.png"></image>
+    </view>
+
+    <view class="ipt-box">
+        <view class="tel-box">
+            <image src="/static/image/tel.png"></image>
+            <input type="text" class="tel-ipt" placeholder="请输入手机号 " />
+        </view>
+        <view class="pwd-box">
+            <image src="/static/image/dp.png"></image>
+            <input class="code-ipt" type="text" placeholder="请输入密码" />
+        </view>
+
+        <view class="code-box">
+            <view class="left">
+                <image src="/static/image/dp.png"></image>
+                <input type="text" class="code-ipt" placeholder="请输入验证码" />
+            </view>
+            <view></view>
+            <view class="right">
+                222
+            </view>
+        </view>
+    </view>
+    <view class="login-btn">
+        登录
+    </view>
+    <view class="bottom">
+        <view class="for-pwd">
+            忘记密码？
+        </view>
+        <view class="code-login">
+            注册/验证码登录
+        </view>
+    </view>
+</view>

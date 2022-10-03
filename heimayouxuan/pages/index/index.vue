@@ -1,11 +1,12 @@
 <template>
-	<view class="">
-		<button style="background-color: ;">
+	<view class="sousuo" style="padding-bottom: 10rpx">
+		<button style="background-color: ; height: 60rpx; line-height: 60rpx; font-size: 32rpx; color: #ccc;">
 			搜索
 		</button>
 	</view>
 	<view class="wrap">
-		<u-swiper :list="list"></u-swiper>
+		<u-swiper :list="list">
+		</u-swiper>
 	</view>
 </template>
 
@@ -53,5 +54,9 @@
 	.title {
 		font-size: 36rpx;
 		color: #8f8f94;
+	}
+	.sousuo{
+		padding: 0rpx 40rpx;
+		background-color: #eb4450;
 	}
 </style>

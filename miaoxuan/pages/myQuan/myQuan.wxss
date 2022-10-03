@@ -1,0 +1,11 @@
+.box{
+  font-size: 30rpx;
+  display: flex;
+  justify-content: space-around;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.active{
+  border-bottom: 5rpx solid #f15a24;
+  color: #f15a24;
+}

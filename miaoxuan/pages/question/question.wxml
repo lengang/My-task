@@ -1,0 +1,6 @@
+<view class="box">
+<view class="minbox">
+  <textarea name="" id="" cols="30" rows="10" class="inp" placeholder="请输入您的问题或反馈" class="yun"></textarea>
+</view>
+<van-button color="#f15a24" size="large" class="btn">提交</van-button>
+</view>

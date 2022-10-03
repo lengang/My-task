@@ -1,0 +1,6 @@
+<view class="box">
+<view  class="{{ids==item.id?'active':''}}" wx:for="{{list}}" wx:key="index" data-id="{{item.id}}" bindtap="tab">
+{{item.name}}
+</view>
+
+</view>

@@ -1,0 +1,27 @@
+<!--components/recomcourse/recomcourse.wxml-->
+<view class="tui-item" wx:for="{{recomCourse}}">
+  <view class="top-txt">{{item.course_classify_title}}</view>
+  <view class="fir-txt">{{item.title}}</view>
+  <view class="text">
+    <text class="txt">不过线第二年免费重读</text>
+    <text class="txt">不过线重读</text>
+  </view>
+
+  <view class="pic-box">
+    <view class="sec-txt" wx:for="{{item.teacher}}" wx:for-index="i" wx:if="{{i < 3}}" wx:key="id">
+      <image src="{{item.avatar}}"></image>
+      <text class="name-txt">{{item.teacher_name}}</text>
+    </view>
+  </view>
+
+  <view class="bot-free">
+    <view class="mian">
+      <text wx:if="item.stock"> <text hidden="{{!item.stock}}">限免</text> {{item.stock}} <text hidden="{{!item.stock}}">人</text> </text>
+      <text>{{item.sales_num}}人已报名</text>
+    </view>
+    <view>
+      <text class="free-txt" hidden="{{item.price}}">免费</text>
+      <text class="pri-txt" hidden="{{!item.price}}">￥{{item.price}}</text>
+    </view>
+  </view>
+</view>

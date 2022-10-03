@@ -1,0 +1,23 @@
+<view class="box">
+<view class="p">
+<view>更改绑定手机号</view>
+<view>15674809733</view>
+</view>
+<view class="p">
+<view>设置密码</view>
+<view>></view>
+</view>
+<view class="p">
+<view>关于我们</view>
+<view>></view>
+</view>
+<view class="p">
+<view>上课短信通知</view>
+<view>
+  <view class="page-section page-section-gap">
+        <switch name="switch" color="#f15a24" bindchange="switch1Change"/>
+      </view>
+</view>
+</view>
+</view>
+<view class="btn">退出登录</view>

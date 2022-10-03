@@ -1,0 +1,110 @@
+<!--pages/selcourse/selcourse.wxml-->
+<view class="content">
+    <!-- popup弹框 -->
+    <!-- 选择课程弹框 -->
+    <van-popup show="{{ firFlag }}" bind:close="onClose" position="bottom">
+        <view class="nav-top">
+            <view class="fir-top">
+                <image src="/static/image/left.png" bindtap="closePop"></image>
+                <text class="sel-kao">选择考试</text>
+            </view>
+            <view class="sel-item {{currentFirId==item.id?'Active':''}}" wx:for="{{FirstClassify}}" wx:key="index" data-val="{{item}}" bindtap="toggleFirPopup">
+                <text>{{ item.title}}</text>
+                <text wx:if="{{item.brief}}">{{ item.brief }}</text>
+            </view>
+        </view>
+    </van-popup>
+
+
+    <!-- 第二层弹框 -->
+    <van-popup show="{{ secFlag }}" bind:close="onClose" position="bottom">
+        <view class="nav-top">
+            <view class="fir-top">
+                <image src="/static/image/left.png" bindtap="backFir"></image>
+                <text class="sel-kao">{{selTitle}}</text>
+            </view>
+            <view class="sel-item {{currentSecId==item.id?'Active':''}}" data-id="{{item.id}}" bindtap="toggleSecPopup" wx:for="{{selList}}" wx:key="id">
+                <text>{{item.name}}</text>
+            </view>
+        </view>
+    </van-popup>
+    <!-- 课程详情弹框 -->
+    <van-popup show="{{ lastFlag }}" bind:close="onClose" style="height: 60%;" position="bottom">
+        <view class="nav-top">
+            <view class="fir-top">
+                <image src="/static/image/left.png" bindtap="backSec"></image>
+                <text class="sel-kao">{{selTitle}}</text>
+                <text class="finish-text" wx:if="{{finishFlag}}" bindtap="chooseFinal">完成</text>
+            </view>
+            <view class="sel-item {{currentLastId==item.major_id?'Active':''}}" wx:for="{{FirstClassifyDetail}}" wx:key="major_id" data-id="{{item.major_id}}" bindtap="toggleLastPopup">
+                <text>{{item.major_name}}</text>
+            </view>
+        </view>
+    </van-popup>
+
+    <!-- 头部左侧课程导航 -->
+    <view class="top">
+        <text bindtap="togglePopup" data-id="{{navTitle.id}}">{{ navTitle.title }} ></text>
+        <view class="pic">
+            <image class="se-pic" src="/static/image/search.png"></image>
+            <image class="cat-pic" src="/static/image/cat.png"></image>
+        </view>
+    </view>
+
+    <!-- 分类导航栏 -->
+    <view class="nav-box">
+        <view class="nav-item {{currentId==1?'active':''}}" data-id="1" data-index="-1" bindtap="changeNav">精选</view>
+        <view class="nav-item {{currentId==item.id?'active':''}}" wx:for="{{navList}}" wx:key="id" data-id="{{item.id}}" data-index="{{index}}" bindtap="changeNav">{{item.title}}</view>
+    </view>
+
+    <!-- 轮播图 -->
+    <swiper indicator-dots autoplay interval="3000" >
+        <swiper-item wx:for="{{bannerList}}" wx:key="id">
+            <image src="{{item.banner_img}}"></image>
+        </swiper-item>
+    </swiper>
+    <!-- 标签 -->
+    <view class="kua-box">
+        <text>23英语</text>
+        <text>23英语</text>
+    </view>
+
+    <!-- 今日直播 -->
+    <view class="live-box">
+        <image class="mao" src="/static/image/mao.png"></image>
+        <image class="live" src="/static/image/live.png"></image>
+        <text wx:for="{{liveList}}" wx:key="id"><text class="time">19：00</text>{{item.basis_title}}</text>
+    </view>
+    <!-- 距离考研时间 -->
+    <view class="cen-box">
+        <image src="/static/image/下载.png"></image>
+        <text>距离考研{{ newDate.residue_date }}天</text>
+    </view>
+
+
+    <!-- 近期公开课 -->
+    <view class="open-box">
+        <view class="course-txt" wx:if="{{currentId==1}}">
+            <text>{{modelName}}</text>
+            <text>查看全部 ></text>
+        </view>
+
+        <view class="con-box" wx:if="{{currentId==1}}">
+            <view class="con-item" wx:for="{{openCourse}}" wx:key="id">
+                <image class="pic-img" src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/image/2020576ztzcv1579054635.jpg"></image>
+                <text>{{item.title}}</text>
+                <view class="free">
+                    {{item.price==0?'免费':item.price}}
+                </view>
+                <text class="orig">{{item.sales_num}}人已报名</text>
+            </view>
+        </view>
+    </view>
+
+
+    <!-- 推荐好课 -->
+    <view class="tui-txt">推荐好课</view>
+    <view class="tui-course">
+        <recomcourse recomCourse="{{recomCourse}}"></recomcourse>
+    </view>
+</view>

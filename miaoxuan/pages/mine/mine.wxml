@@ -1,0 +1,70 @@
+
+<view class="bigbox">
+  <view class="box">
+<view class="imgbox"  bindtap="user">
+<image src="https://lexuemiao.oss-cn-beijing.aliyuncs.com/uploads/images/avatar.jpg" class="img"></image>
+</view>
+<text>156****9733</text>
+<image src="/static/设置.png" class="iconimg" bindtap="setup"></image>
+</view>
+<view class="col_mid">
+  <view class="ul" bindtap="order">
+  <image src="/static/货车_装车_o.png" class="minimgs"></image>
+  <view>我的订单</view>
+  <view class="licolor">买课发快递</view>
+  </view>
+  <view class="bor"></view>
+  <view class="ul" bindtap="curriculum">
+  <image src="/static/课程.png" class="minimgs"></image>
+  <view>兑换课程</view>
+  <view class="licolor">兑换码兑换课程</view>
+  </view>
+  <view class="bor"></view>
+  <view class="ul" bindtap="address">
+  <image src="/static/地址管理.png" class="minimgs"></image>
+  <view>地址管理</view>
+  <view class="licolor">收货地址</view>
+  </view>
+ 
+</view>
+<view class="centerbox">
+<view class="p" bindtap="Collection">
+<view class="minp">
+  <image src="/static/星星.png" class="pimg"></image>  
+  <view>我的收藏</view>
+</view>
+<view>></view>
+</view>
+<view class="p" bindtap="member">
+<view class="minp">
+  <image src="/static/会员.png" class="pimg"></image>  
+  <view>我的会员</view>
+</view>
+<view>></view>
+</view>
+<view class="p" bindtap="coupon">
+<view class="minp">
+  <image src="/static/我的优惠卷.png" class="pimg"></image>  
+  <view>我的优惠券</view>
+</view>
+<view>></view>
+</view>
+</view>
+<view class="footerbox">
+  <view class="p" bindtap="news">
+<view class="minp">
+  <image src="/static/消息中心.png" class="pimg"></image>  
+  <view>我的消息</view>
+</view>
+<view>></view>
+</view>
+<view class="p" bindtap="feedback">
+<view class="minp">
+  <image src="/static/反馈.png" class="pimg"></image>  
+  <view>问题反馈</view>
+</view>
+<view>></view>
+</view>
+
+</view>
+</view>
