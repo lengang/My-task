@@ -3,7 +3,6 @@
   "navigationBarBackgroundColor": "#d75255",
   "navigationBarTextStyle": "white",
   "usingComponents": {
-    "search-input": "../../components/searchInput/searchInput",
     "u-swiper": "../../uni_modules/vk-uview-ui/components/u-swiper/u-swiper",
     "u-grid-item": "../../uni_modules/vk-uview-ui/components/u-grid-item/u-grid-item",
     "u-grid": "../../uni_modules/vk-uview-ui/components/u-grid/u-grid",

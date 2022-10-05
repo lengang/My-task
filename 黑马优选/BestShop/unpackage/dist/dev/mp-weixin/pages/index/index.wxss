@@ -23,6 +23,15 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.ipt.data-v-57280228 {
+  width: 96%;
+  margin-left: 2%;
+  height: 60rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  background-color: white;
+  text-align: center;
+}
 .u-row.data-v-57280228.data-v-57280228 {
   margin: 0;
 }

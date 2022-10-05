@@ -1,5 +1,5 @@
 
-input{
+input {
 		width: 96%;
 		margin-left: 2%;
 		height: 60rpx;

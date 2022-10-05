@@ -34,8 +34,8 @@
 <script lang="ts" setup>
 	import {
 		getGoodsCateList
-	} from '@/api/api.ts'
-	import * as TS from '@/api/define.ts'
+	} from '@/api/api'
+	import * as TS from '@/api/define'
 	import {
 		reactive
 	} from 'vue'

@@ -1,1 +1,1 @@
-<view><input type="text" placeholder="搜索" disabled/></view>
+<view><input type="text" placeholder="搜索" value="{{a}}" bindinput="{{b}}"/></view>

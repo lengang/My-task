@@ -1,1 +1,1 @@
-<view></view>
+<view><view class="title"> 购物车 </view><view class="car_box"><view wx:for="{{a}}" wx:for-item="item" wx:key="i" class="car_item"><view class="left"><checkbox value="{{item.a}}"/></view><view class="img"><image src="{{item.b}}" mode=""></image></view><view class="right"><view class="name">{{item.c}}</view><view class="price">￥{{item.d}}</view><view><u-number-box wx:if="{{item.h}}" catchchange="{{item.e}}" u-i="{{item.f}}" bind:__l="__l" bindupdateModelValue="{{item.g}}" u-p="{{item.h}}"></u-number-box></view></view></view></view></view>

@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/cateView/cateView",
     "pages/carView/carView",
-    "pages/mineView/mineView"
+    "pages/mineView/mineView",
+    "pages/search/search",
+    "pages/goodsDetail/goodsDetail"
   ],
   "window": {
     "navigationBarTextStyle": "black",

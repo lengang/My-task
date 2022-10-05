@@ -2,7 +2,7 @@
 	<view>
 		<!-- 搜索框 -->
 		<view class="ipt-box">
-			<searchInput></searchInput>
+			<input class="ipt" type="text" placeholder="搜索" disabled  @click="toSearch">
 		</view>
 		<!-- 轮播图 -->
 		<view class="wrap">
@@ -42,8 +42,8 @@
 		getSwiper,
 		gerNavList,
 		getFloorData
-	} from '@/api/api.ts'
-	import * as TS from '@/api/define.ts'
+	} from '@/api/api'
+	import * as TS from '@/api/define'
 	import {
 		reactive
 	} from 'vue'
@@ -75,9 +75,24 @@
 			data.floorList=res.message
 		}
 	})
+	
+	const toSearch=()=>{
+		uni.navigateTo({
+			url:"/pages/search/search"
+		})
+	}
 </script>
 
 <style lang="scss" scoped>
+	.ipt{
+		width: 96%;
+		margin-left: 2%;
+		height: 60rpx;
+		height: 60rpx;
+		border-radius: 10rpx;
+		background-color: white;
+		text-align: center;
+	}
 	.u-row[data-v-57280228] {
 		margin: 0;
 	}

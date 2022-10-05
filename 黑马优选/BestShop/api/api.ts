@@ -17,9 +17,27 @@ const getFloorData=()=>{
 const getGoodsCateList=()=>{
 	return request('/categories').then((res:TS.GoodsCateList)=>res,err=>err)
 }
+
+// 获取搜索数据
+const getSearchList=()=>{
+	return request('/goods/search').then((res:TS.SearchList)=>res,err=>err)
+}
+
+// 搜索商品
+const getSearchGoods=(val)=>{
+	return request(`/goods/qsearch?query=${val}`).then((res:TS.SearchGoods)=>res,err=>err)
+}
+
+// 获取详情数据
+const getDetails = (id: number) => {
+	return request(`/goods/detail?goods_id=${id}`).then((res: TS.DetailsData) => res, err => err)
+}
 export {
 	getSwiper,
 	gerNavList,
 	getFloorData,
-	getGoodsCateList
+	getGoodsCateList,
+	getSearchList,
+	getSearchGoods,
+	getDetails
 }
