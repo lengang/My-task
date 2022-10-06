@@ -19,8 +19,8 @@
 	} from 'vue'
 	import {
 		getSearchGoods
-	} from '@/api/api'
-	import * as TS from '@/api/define'
+	} from '@/api/api.ts'
+	import * as TS from '@/api/define.ts'
 	const data = reactive({
 		searchVal: '',
 		searchList: [],

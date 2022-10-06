@@ -61,7 +61,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         c: common_vendor.t(item.name),
         d: common_vendor.t(item.price),
         e: common_vendor.o(($event) => $setup.valChange(index)),
-        f: "6d49004e-0-" + i0,
+        f: "31b01ce2-0-" + i0,
         g: common_vendor.o(($event) => item.number = $event),
         h: common_vendor.p({
           min: 1,
@@ -72,5 +72,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   };
 }
-var MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "E:/\u5B9E\u8BAD\u5B66\u4E60/\u4F5C\u4E1A\u5E93/My-task/\u9ED1\u9A6C\u4F18\u9009/BestShop/pages/carView/carView.vue"]]);
+var MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "C:/Users/Lenovo/Desktop/\u4E50\u5B66\u55B5/every-uni/BestShop/pages/carView/carView.vue"]]);
 wx.createPage(MiniProgramPage);

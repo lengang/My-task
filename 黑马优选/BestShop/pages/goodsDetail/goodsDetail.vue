@@ -23,7 +23,7 @@
 <script lang="ts">
 	import {
 		getDetails
-	} from '@/api/api'
+	} from '@/api/api.ts'
 	import {
 		reactive,
 		toRefs

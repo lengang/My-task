@@ -1,6 +1,6 @@
 {
     "name" : "BestShop",
-    "appid" : "__UNI__7C04376",
+    "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -50,11 +50,10 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wx20ab771adb7f01c7",
+        "appid" : "wx7963c456d093b536",
         "setting" : {
             "urlCheck" : false,
-            "es6" : true,
-            "postcss" : true
+            "es6" : true
         },
         "usingComponents" : true
     },

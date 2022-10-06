@@ -42,8 +42,8 @@
 		getSwiper,
 		gerNavList,
 		getFloorData
-	} from '@/api/api'
-	import * as TS from '@/api/define'
+	} from '@/api/api.ts'
+	import * as TS from '@/api/define.ts'
 	import {
 		reactive
 	} from 'vue'
