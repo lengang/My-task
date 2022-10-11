@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./lib//echarts.min.js"></script>
+  </head>
+  <body>
+    <div class="box" style="width: 900px; height: 500px"></div>
+  </body>
+  <script>
+    let MEcharts = echarts.init(document.querySelector("div"));
+    let XEcharts = [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月",
+    ];
+    let YEcharts = [
+      "2000",
+      "5000",
+      "7000",
+      "9000",
+      "2500",
+      "10000",
+      "6999",
+      "7450",
+      "2999",
+      "8970",
+      "4532",
+      "7800",
+    ];
+    let YEcharts1 = [
+      "3000",
+      "4000",
+      "5000",
+      "6000",
+      "7500",
+      "9000",
+      "8999",
+      "5450",
+      "4999",
+      "3970",
+      "2532",
+      "1800",
+    ];
+    option = {
+      xAxis: {
+        type: "category",
+        data: XEcharts,
+         boundaryGap:false
+      },
+      yAxis: {
+        type: "value",
+        scale:true
+      },
+      series: [
+        {
+          data: YEcharts,
+          type: "line",
+          stack:'arr',
+          markPoint: {
+            data: [
+              {
+                type: "max" /*曲线最大值*/,
+              },
+              {
+                type: "min" /*曲线最小值*/,
+              },
+            ],
+          },
+          markLine: {
+            data: [
+              {
+                type: "average" /*平均值*/,
+              },
+            ],
+          },
+          markArea: {
+            data: [[{ xAxis: "1月" }, { xAxis: "4月" }]] /*标注色区*/,
+          },
+          smooth: true,
+          lineStyle: {
+            color: "red",
+            type: "dashed",
+          },
+          areaStyle: {
+            color: "#856363",/*填充颜色*/
+          },
+        },
+        {
+          data: YEcharts1,
+          type: "line",
+          stack:'arr',
+          markPoint: {
+            data: [
+              {
+                type: "max" /*曲线最大值*/,
+              },
+              {
+                type: "min" /*曲线最小值*/,
+              },
+            ],
+          },
+          markLine: {
+            data: [
+              {
+                type: "average" /*平均值*/,
+              },
+            ],
+          },
+          markArea: {
+            data: [[{ xAxis: "1月" }, { xAxis: "4月" }]] /*标注色区*/,
+          },
+          smooth: true,
+          lineStyle: {
+            color: "red",
+            type: "dashed",
+          },
+          areaStyle: {
+            color: "#cd7f32",/*填充颜色*/
+          },
+        },
+      ],
+    };
+    MEcharts.setOption(option);
+  </script>
+</html>

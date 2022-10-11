@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <script src="./lib/echarts.min.js"></script>
+  </head>
+  <body>
+    <div style="width: 600px; height: 400px"></div>
+  </body>
 </html>
+<script>
+  let MEcharts = echarts.init(document.querySelector("div"));
+  let XEcharts = ["亚索", "瑞文", "刀妹", "卡特", "凤女"];
+  let YEcharts = [24, 18, 22, 19, 29];
+  let YEcharts1 = [22, 10, 33, 49, 21];
+  let option = {
+    title: {
+      text: "英雄联盟",
+      borderWidth: 2,
+      show: true,
+      //   borderColor:"#ff7f00",
+      textStyle: {
+        color: "#ff00ff",
+      },
+    },
+    xAxis: {
+      type: "category",
+      data: XEcharts,
+    },
+    yAxis: {
+      type: "value",
+    },
+    tooltip: {
+      trigger: "axis",
+    },
+    legend: {
+      data: ["英雄", "颜值"],
+    },
+    toolbox: {
+      feature: {
+        showTitle: true,
+        saveAsImage: {},
+        dataView: {},
+        dataZoom: {},
+        magicType: {
+          type: ["line", "bar", "stack"],
+        },
+      },
+    },
+    series: [
+      {
+        name: "英雄",
+        data: YEcharts,
+        type: "bar",
+        showBackground: true,
+        backgroundStyle: {
+          color: "rgba(180, 180, 180, 0.2)",
+        },
+      },
+      {
+        name: "颜值",
+        data: YEcharts1,
+        type: "bar",
+        showBackground: true,
+        backgroundStyle: {
+          color: "rgba(180, 180, 180, 0.2)",
+        },
+      },
+    ],
+  };
+  MEcharts.setOption(option);
+</script>
