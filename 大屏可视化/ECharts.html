@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./lib/echarts.min.js"></script>
+  </head>
+  <body>
+    <div style="width: 500px; height: 500px"></div>
+  </body>
+  <script>
+    let MaEcharts = echarts.init(document.querySelector("div"));
+    let XEcharts = [
+      { name: "亚索", age: 32 },
+      { name: "剑魔", age: 982 },
+      { name: "刀妹", age: 27 },
+      { name: "卡莎", age: 274 },
+      { name: "瑞雯", age: 25 },
+      { name: "卡特", age: 18 },
+      { name: "剑姬", age: 24 },
+    ];
+    option = {
+      series: [
+        {
+          type: "pie",
+          data: XEcharts,
+        },
+      ],
+    };
+    // option = {
+    //   series: [
+    //     {
+    //       type: "pie",
+    //       data: XEcharts,
+    //     },
+    //   ],
+    // };
+    MaEcharts.setOption(option);
+  </script>
+</html>
